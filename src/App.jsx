@@ -17,6 +17,7 @@ const App = () => {
 	return (
 		<div>
 			<Navbar />
+			<Header />
 			<AboutUs />
 			<SpecialMenu />
 			<Chef />

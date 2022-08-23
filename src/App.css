@@ -56,14 +56,17 @@
 	background-color: var(--color-crimson);
 	color: var(--color-black);
 	font-family: var(--font-base);
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: 0.04rem;
 	line-height: 28px;
-	font-size: 16px;
-	padding: 0.5px 1.5px;
-	border-radius: 1px;
-	outline: none;
+	font-size: 14px;
+	padding: 0.5px 6px;
+	border-radius: 6px;
 	cursor: pointer;
+	border: 0;
+
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
 }
 
 .p__poppins {
@@ -97,7 +100,8 @@
 }
 
 .spoon__img {
-	width: 45%;
+	width: 45px;
+	margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {

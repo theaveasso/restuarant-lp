@@ -5,7 +5,7 @@
 	--font-alt: 'Inter', sans-serif;
 
 	--color-golden: #dcca87;
-	--color-black: #1a2421;
+	--color-black: #121212;
 	--color-dimWhite: #f5f5f5;
 	--color-crimson: #f5efdb;
 	--color-lightgray: #aaaaaa;
@@ -16,6 +16,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 a {

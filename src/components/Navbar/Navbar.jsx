@@ -27,12 +27,9 @@ const Navbar = () => {
 
 			<ul className='app__navbar-cta'>
 				{CTA.map((item) => (
-					<div className='app__navbar-cta-container'>
-						<li
-							key={item.id}
-							onClick={() => setIsActive(item.title)}
-						>
-							<a classname='p__poppins' href={`#${item.id}`}>
+					<div className='app__navbar-cta-container' key={item.id}>
+						<li onClick={() => setIsActive(item.title)}>
+							<a href={`#${item.id}`} key={item.id}>
 								{item.title}
 							</a>
 						</li>
